@@ -1,16 +1,16 @@
-<div>
+<div class="container">
     <a href="/movies/">Go back</a>
-        <div>
-            <img src="{{movie.image}}" />
-            <div>
-                <h2>{{movie.title}}</h2>
-                <h3>{{movie.director}}</h3>
-                <h4>Stars</h4>
+        <div class="row align-items-start ">
+            <img class="pt-3 col-md-2" src="{{movie.image}}" />
+            <div class="col">
+                <h2 class="pt-3">{{movie.title}}</h2>
+                <h3 class="pt-3">{{movie.director}}</h3>
+                <h4 class="pt-3">Stars</h4>
                 <ul>
                     <li>{{movie.stars}}</li>
                 </ul>
-                <p>{{movie.description}}</p>
-                <p>{{movie.showtimes}}</p>
+                <p class="pt-3">{{movie.description}}</p>
+                <p class="pt-3">{{movie.showtimes}}</p>
             </div>
         </div>
 </div>
